@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "testmod:block/solarpanel"
+    },
+    "facing=south": {
+      "model": "testmod:block/solarpanel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "testmod:block/solarpanel",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "testmod:block/solarpanel",
+      "y": 90
+    }
+  }
+}

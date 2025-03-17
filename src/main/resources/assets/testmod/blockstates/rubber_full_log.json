@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "cooldown=false,rubber=false": { "model": "testmod:block/rubber_full_log" },
+    "cooldown=false,rubber=true": { "model": "testmod:block/rubber_empty_log" },
+    "cooldown=true,rubber=true": { "model": "testmod:block/rubber_empty_log" },
+    "cooldown=true,rubber=false": { "model": "testmod:block/rubber_full_log" }
+  }
+}

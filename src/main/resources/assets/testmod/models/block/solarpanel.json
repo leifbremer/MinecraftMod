@@ -1,0 +1,134 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"zelle": "testmod:block/zelle",
+		"rahmen": "testmod:block/rahmen",
+		"koerper": "testmod:block/koerper",
+		"particle": "testmod:block/zelle"
+	},
+	"elements": [
+		{
+			"name": "koerper",
+			"from": [0, 0, 0],
+			"to": [16, 4, 16],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 3.5], "texture": "#koerper"},
+				"east": {"uv": [8, 3.5, 16, 7], "texture": "#koerper"},
+				"south": {"uv": [8, 7, 16, 10.5], "texture": "#koerper"},
+				"west": {"uv": [8, 10.5, 16, 14], "texture": "#koerper"},
+				"up": {"uv": [8, 8, 0, 0], "texture": "#koerper"},
+				"down": {"uv": [8, 8, 0, 16], "texture": "#koerper"}
+			}
+		},
+		{
+			"from": [0, 4, 15],
+			"to": [16, 6, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 4, 15]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0.5], "texture": "#rahmen"},
+				"east": {"uv": [0.5, 4.5, 0.75, 5], "texture": "#rahmen"},
+				"south": {"uv": [0, 0.5, 4, 1], "texture": "#rahmen"},
+				"west": {"uv": [4.5, 0.5, 4.75, 1], "texture": "#rahmen"},
+				"up": {"uv": [4, 4.25, 0, 4], "texture": "#rahmen"},
+				"down": {"uv": [8, 0, 4, 0.25], "texture": "#rahmen"}
+			}
+		},
+		{
+			"from": [0, 4, 0],
+			"to": [1, 6, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 4, 0]},
+			"faces": {
+				"north": {"uv": [0.75, 4.5, 1, 5], "texture": "#rahmen"},
+				"east": {"uv": [0, 1, 4, 1.5], "texture": "#rahmen"},
+				"south": {"uv": [1, 4.5, 1.25, 5], "texture": "#rahmen"},
+				"west": {"uv": [0, 1.5, 4, 2], "texture": "#rahmen"},
+				"up": {"uv": [4.25, 4.25, 4, 0.25], "texture": "#rahmen"},
+				"down": {"uv": [0.25, 4.25, 0, 8.25], "texture": "#rahmen"}
+			}
+		},
+		{
+			"from": [15, 4.01, 0],
+			"to": [16, 6.01, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 4, 0]},
+			"faces": {
+				"north": {"uv": [4.5, 1, 4.75, 1.5], "texture": "#rahmen"},
+				"east": {"uv": [0, 2, 4, 2.5], "texture": "#rahmen"},
+				"south": {"uv": [1.25, 4.5, 1.5, 5], "texture": "#rahmen"},
+				"west": {"uv": [0, 2.5, 4, 3], "texture": "#rahmen"},
+				"up": {"uv": [0.5, 8.25, 0.25, 4.25], "texture": "#rahmen"},
+				"down": {"uv": [4.5, 0.25, 4.25, 4.25], "texture": "#rahmen"}
+			}
+		},
+		{
+			"from": [0, 4, 0],
+			"to": [16, 6, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 4, 0]},
+			"faces": {
+				"north": {"uv": [0, 3, 4, 3.5], "texture": "#rahmen"},
+				"east": {"uv": [1.5, 4.5, 1.75, 5], "texture": "#rahmen"},
+				"south": {"uv": [0, 3.5, 4, 4], "texture": "#rahmen"},
+				"west": {"uv": [4.5, 1.5, 4.75, 2], "texture": "#rahmen"},
+				"up": {"uv": [4.5, 4.5, 0.5, 4.25], "texture": "#rahmen"},
+				"down": {"uv": [8.5, 0.25, 4.5, 0.5], "texture": "#rahmen"}
+			}
+		},
+		{
+			"name": "zelle",
+			"from": [1, 4, 1],
+			"to": [15, 5, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 4, 1]},
+			"faces": {
+				"north": {"uv": [7, 0, 14, 0.5], "texture": "#zelle"},
+				"east": {"uv": [7, 0.5, 14, 1], "texture": "#zelle"},
+				"south": {"uv": [7, 1, 14, 1.5], "texture": "#zelle"},
+				"west": {"uv": [7, 1.5, 14, 2], "texture": "#zelle"},
+				"up": {"uv": [7, 7, 0, 0], "texture": "#zelle"},
+				"down": {"uv": [7, 7, 0, 14], "texture": "#zelle"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0.5, 1.25, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0.5, 1.25, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"firstperson_righthand": {
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [35, 45, 0],
+			"translation": [0, 2.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"translation": [0, 10.5, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, -0.75, -2.25],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		0,
+		{
+			"name": "rahmen",
+			"origin": [16, 7, 0],
+			"color": 0,
+			"children": [1, 2, 3, 4]
+		},
+		5
+	]
+}

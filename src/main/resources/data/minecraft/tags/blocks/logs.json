@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_log",
+    "minecraft:birch_log",
+    "testmod:rubber_full_log",
+    "testmod:rubber_log"
+  ]
+}

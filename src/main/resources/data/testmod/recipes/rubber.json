@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "testmod:sticky_resin"
+  },
+  "result": "testmod:rubber",
+  "experience": 0.15,
+  "cookingtime": 300
+}

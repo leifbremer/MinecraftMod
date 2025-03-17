@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:silizium_block",
+    "testmod:silizium_ore",
+    "testmod:deepslate_silizium_ore",
+    "testmod:nether_silizium_ore",
+    "testmod:solarpanel"
+  ]
+}

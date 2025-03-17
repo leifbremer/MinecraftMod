@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern": [
+    "EEE",
+    "E E"
+  ],
+  "key": {
+    "E": {
+      "item": "testmod:silizium"
+    }
+  },
+  "ingredients": [
+    {
+      "item": "testmod:silizium_block"
+    }
+  ],
+  "result": {
+    "item": "testmod:silizium",
+    "count": 9
+  }
+}

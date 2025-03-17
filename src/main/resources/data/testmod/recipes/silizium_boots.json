@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "   ",
+    "E E",
+    "E E"
+  ],
+  "key": {
+    "E": {
+      "item": "testmod:silizium"
+    }
+  },
+  "result": {
+    "item": "testmod:silizium_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "tag": "minecraft:stone_ore_replaceables",
+          "block": "minecraft:netherrack"
+        },
+        "state": {
+          "Name": "testmod:nether_silizium_ore"
+        }
+      }
+    ],
+    "size": 12,
+    "discard_chance_on_air_exposure": 0.2
+  }
+}

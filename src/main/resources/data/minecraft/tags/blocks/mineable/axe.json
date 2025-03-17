@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:rubber_log",
+    "testmod:rubber_full_log",
+    "testmod:rubber_wood"
+  ]
+}
